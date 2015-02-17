@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17 Feb, 2015, 11:12:19 PM
+    Author     : Richa
+*/
+.button
+{
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: -moz-linear-gradient(bottom,#ACACAC,#F3F3F3);
+    background: -webkit-linear-gradient(bottom,#ACACAC,#F3F3F3);
+    background: linear-gradient(bottom,#ACACAC,#F3F3F3);
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-shadow: 1px 1px rgba(255,255,255,0.8);
+    font-size: 28px;
+    font:bold sans-serif;
+    -moz-box-shadow: 0 1px 1px rgba(94,94,94,0.8),0 0 0 6px rgba(209,206,213,1),0 0 0 8px rgba(255,255,255,1),0 0 0 10px rgba(102,102,102,1),0 2px 4px 13px rgba(209,206,213,1);
+    -webkit-box-shadow: 0 1px 1px rgba(94,94,94,0.8),0 0 0 6px rgba(209,206,213,1),0 0 0 8px rgba(255,255,255,1),0 0 0 10px rgba(102,102,102,1),0 2px 4px 13px rgba(209,206,213,1);
+    box-shadow: 0 1px 1px rgba(94,94,94,0.8),0 0 0 6px rgba(209,206,213,1),0 0 0 8px rgba(255,255,255,1),0 0 0 10px rgba(102,102,102,1),0 2px 4px 13px rgba(209,206,213,1);
+    
+    
+}
+
+button:before,button:after
+{
+    color: #808080;
+    padding:10px;
+    content:'\2605';
+}
